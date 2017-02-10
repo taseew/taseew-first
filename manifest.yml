@@ -1,0 +1,11 @@
+applications:
+- path: .
+  memory: 512M
+  instances: 1
+  domain: mybluemix.net
+  name: taseew-first
+  host: taseew-first
+  disk_quota: 1024M
+  services:
+  - taseew-first-cloudantNoSQLDB
+  - taseew-first-iotf-service
